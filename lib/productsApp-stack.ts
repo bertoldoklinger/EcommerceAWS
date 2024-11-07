@@ -1,10 +1,6 @@
-
-import * as lambdaNodeJS from 'aws-cdk-lib/aws-lambda-nodejs'
-
-import * as lambda from 'aws-cdk-lib/aws-lambda'
-
 import * as cdk from "aws-cdk-lib"
-
+import * as lambda from 'aws-cdk-lib/aws-lambda'
+import * as lambdaNodeJS from 'aws-cdk-lib/aws-lambda-nodejs'
 import { Construct } from 'constructs'
 
 export class ProductsAppStack extends cdk.Stack {
